@@ -1,0 +1,64 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: none;
+    height: auto;
+    background-image: URL('../images/header_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 20 70;
+    background-attachment: fixed;
+}
+
+#header {
+    width: 100%;
+    /* border: 1px solid grey; */
+    background-color: RGBA(000,000,000,0.2);  
+}
+
+nav {
+    height: 150px;
+    background-color: RGBA(000, 000, 000, 0.6);
+}
+
+#navbarNav {
+    opacity: 0.6;
+}
+
+#navbarNav li a {
+    color: white;
+}
+#slider_container{
+    /* height: 100%; */
+    margin: 150px 0 0 0;
+    /* background-color: green; */
+}
+/* #images{
+    border: 1px solid red;
+    padding: 10.5%;
+    height: 100%;
+    background-color: #fff;
+} */
+/* #images img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+} */
+#body {
+    /* margin: 150px 0 0 0; */
+    height: auto;
+    width: auto;
+    background-color: RGBA(255, 255, 255, 0.3);
+    position: absolute;
+}
+
+.row .thumbnail img{
+    width: 100%;
+    height: 200px;
+}
+.row .thumbnail .caption{
+    width: 100%;
+    height: 100%;
+}
